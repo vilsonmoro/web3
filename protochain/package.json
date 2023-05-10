@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "npx tsc",
     "start": "node ./dist/server.js",
-    "dev": "npx nodemon --watch './src/' --exec npx ts-node ./src/server.ts -e ts",
+    "dev": "npx nodemon --watch ./src/ --exec npx ts-node ./src/blockchain.ts -e ts",
     "test": "jest"
   },
   "keywords": [],
